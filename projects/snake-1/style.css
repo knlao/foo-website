@@ -1,0 +1,21 @@
+#game {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #eee;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.has-snake {
+  background: orange;
+}
+
+.has-food {
+  background: green;
+}
